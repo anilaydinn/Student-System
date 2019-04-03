@@ -77,49 +77,6 @@ public class Main {
 	
 	}
 	
-	public static int binarySearch(int array[], int value) {
-		
-		int first;			//First array element.
-		int last;			//Last array element.
-		int middle;			//Midpoint of search
-		int position;		//Position of search value
-		boolean found;		//Flag
-		
-		//Set the initial values.
-		first = 0;
-		last = array.length - 1;
-		position = -1;
-		found = false;
-		
-		//Search for the value 
-		while(!found && first <= last) {
-			
-			//Calculate midpoint
-			middle = (first + last) / 2;
-			//If value is found at midpoint...
-			if(array[middle] == value) {
-				
-				found = true;
-				position = middle;
-			}
-			//else if value is in lower half...
-			else if(array[middle] > value) {
-				
-				last = middle - 1;
-			}
-			//else if value is in upper half...
-			else{
-				
-				first = middle + 1;
-			}
-			
-			//Return the position of the item, or -1
-			//if it was found.
-			return position;
-		}
-		return position;
-	}
-	
 	
 	
 	public static void insertStudent() throws FileNotFoundException {
@@ -283,11 +240,11 @@ public class Main {
 				System.out.println("Grade-5:");
 				input = keyboard.next();
 				st.setGrade5(Double.parseDouble(input));
-				
+				break;
 			}
 			
 			System.out.println("Name: " + st.getName() + " Surname: " + st.getSurname() + " StID: " + st.getstId() + " Grade-1: " + st.getGrade1() + " Grade-2: " + st.getGrade2() + " Grade-3: " + st.getGrade3() + " Grade-4: " + st.getGrade4() + " Grade-5: " + st.getGrade5());
-			break;
+		//break;
 		}
 		scanStd1.close();	
 		
@@ -387,6 +344,5 @@ public class Main {
 				
 		
 	}
-	
 	
 }
