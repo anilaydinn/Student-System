@@ -1,2 +1,6 @@
+<<<<<<< HEAD
 Name: Anıl Surname: Aydın StudentID: 11 Grade-1: 45.0 Grade-2: 65.0 Grade-3: 78.0 Grade-4: 98.0 Grade-5: 44.0 GPA: 66.0
 Name: Hazar Surname: Öztürk StudentID: 13 Grade-1: 22.0 Grade-2: 13.0 Grade-3: 45.0 Grade-4: 65.0 Grade-5: 77.0 GPA: 44.4
+=======
+
+>>>>>>> 80cf5c1a6eaef7b98eaf476b8673ace00b9559ae
