@@ -1,0 +1,4 @@
+Name: Feyza Surname: Babacan StudentID: 12 Grade-1: 44.0 Grade-2: 77.0 Grade-3: 88.0 Grade-4: 99.0 Grade-5: 66.0 GPA: 74.8
+Name: Hazar Surname: Barış StudentID: 13 Grade-1: 66.0 Grade-2: 45.0 Grade-3: 78.0 Grade-4: 99.0 Grade-5: 88.0 GPA: 75.2
+Name: Hakan Surname: Kaymak StudentID: 14 Grade-1: 66.0 Grade-2: 88.0 Grade-3: 33.0 Grade-4: 22.0 Grade-5: 45.0 GPA: 50.8
+Name: Ali Surname: Uğur StudentID: 15 Grade-1: 99.0 Grade-2: 10.0 Grade-3: 9.0 Grade-4: 45.0 Grade-5: 7.0 GPA: 34.0
